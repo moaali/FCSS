@@ -62,7 +62,7 @@
 // @At Specific Width Query Mixin
 // ---------------------------------------------------------
 
-// Mixin used to match the devices between 2 breakpoints.
+// Mixin used to match specific device width.
 
 @mixin at($breakpoint){
   @media screen and (width: $breakpoint) {
