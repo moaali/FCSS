@@ -2,7 +2,7 @@
 // @Responsive Suffix Generator
 // ---------------------------------------------------------
 
-// Mixin used to generate responsive suffixes for classes (i.e. m-10@sm+).
+// Mixin used to generate responsive suffixes for classes (i.e. `m-10@sm+`).
 
 @mixin generate-responsive() {
   @each $breakpoint in $breakpoints {
