@@ -7076,11 +7076,7 @@
       -ms-flex: 0 0 auto;
           flex: 0 0 auto; }
 
-.peer-greed {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 auto;
-          flex: 1 1 auto; }
-
+.peer-greed,
 .peers-greed > .peer,
 .peers-greed > .peers {
   -webkit-box-flex: 1;
@@ -7111,6 +7107,11 @@
 
 .cf::after {
   clear: both; }
+
+.ir {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden; }
 
 .d-f {
   display: -webkit-box;
@@ -38503,19 +38504,19 @@
   line-height: 1.5 !important; }
 
 .bd {
-  border: 1px solid rgba(35, 56, 77, 0.1) !important; }
+  border: 1px solid rgba(23, 38, 54, 0.1) !important; }
 
 .bdT {
-  border-top: 1px solid rgba(35, 56, 77, 0.1) !important; }
+  border-top: 1px solid rgba(23, 38, 54, 0.1) !important; }
 
 .bdR {
-  border-right: 1px solid rgba(35, 56, 77, 0.1) !important; }
+  border-right: 1px solid rgba(23, 38, 54, 0.1) !important; }
 
 .bdB {
-  border-bottom: 1px solid rgba(35, 56, 77, 0.1) !important; }
+  border-bottom: 1px solid rgba(23, 38, 54, 0.1) !important; }
 
 .bdL {
-  border-left: 1px solid rgba(35, 56, 77, 0.1) !important; }
+  border-left: 1px solid rgba(23, 38, 54, 0.1) !important; }
 
 .bdw-0 {
   border-width: 0px !important; }
